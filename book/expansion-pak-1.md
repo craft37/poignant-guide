@@ -39,6 +39,8 @@ things!)
 
 * If you are on Apple’s **Mac OS X**, then Ruby is already installed.
 
+  _The Ruby version that ships with OS X now (2.0.0) is good enough for trying examples from the book and getting started with Ruby. Newcomers shouldn't need to install Homebrew to take Ruby out for a spin._
+
 * On **Debian**, use `apt-get install ruby`.
 
 * On **Gentoo**, `emerge ruby`.
