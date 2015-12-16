@@ -46,6 +46,8 @@ things!)
 
         brew install ruby
 
+  _The Ruby version that ships with OS X now (2.0.0) is good enough for trying examples from the book and getting started with Ruby. Newcomers shouldn't need to install Homebrew to take Ruby out for a spin._
+
 * On **Debian**, use `apt-get install ruby`.
 
 * On **Gentoo**, `emerge ruby`.
@@ -394,6 +396,6 @@ Well then. Your hands are in it all now. Welcome to Ruby.
 
 
 [1]: http://rubyinstaller.org/
-[2]: http://mxcl.github.com/homebrew/
+[2]: http://brew.sh/
 [3]: http://www.rubycentral.com/book/irb.html
 [4]: http://rdoc.sourceforge.net/doc/files/README.html
