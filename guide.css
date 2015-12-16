@@ -42,6 +42,22 @@ strong, em {
 a img {
     border: 0;
 }
+figure, figcaption {
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+figcaption {
+    font-size: .9em;
+    font-family: Sequentialist BB, Comic Sans, cursive;
+}
+figcaption q {
+    padding: 5px 20px;
+    max-width: 27%;
+    vertical-align: middle;
+    border: 2px dotted black;
+    border-radius: 60px;
+    display: inline-block;
+}
 blockquote {
     font-style: italic;
     font-size: larger;
