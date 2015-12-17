@@ -1,10 +1,14 @@
+This is a russian translation of why’s (poignant) guide to ruby.
+
 On August 19, 2009 Why the Lucky Stiff removed every trace of his work from the
 Web, including this book: the Poignant Guide to Ruby.
 
-I've salvaged the book from the Internet archive and re-published it. The
+## Modern renovation
+
+[Mislav][ms] salvaged the book from the Internet archive and re-published it. The
 original work was under the [Attribution-ShareAlike license][cc].
 
-Since then I have:
+Since then Mislav have:
 
 1. Changed code examples to never generate syntax warnings
 2. Updated code examples to match Ruby 1.9 behavior
@@ -16,7 +20,7 @@ Since then I have:
 
 ## Build system
 
-Run `script/jekyll` to [build the site with Jekyll][jk].
+Run `bundle exec jekyll serve` to [build the site with Jekyll][jk].
 
 The individual chapters are in `_posts/` directory.
 
@@ -31,8 +35,8 @@ The original soundtrack and PDF edition are also available in
 Chapter 8: Heaven's Harp was never recovered. I suspect \_why started drawing it,
 but never finished or published.
 
-
   [cc]: http://creativecommons.org/licenses/by-sa/2.5/
   [jp]: http://www.aoky.net/articles/why_poignant_guide_to_ruby/
   [dl]: http://github.com/mislav/poignant-guide/downloads
   [jk]: https://help.github.com/articles/using-jekyll-with-pages
+  [ms]: https://github.com/mislav
