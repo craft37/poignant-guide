@@ -110,7 +110,7 @@ pre {
     line-height: 170%;
 }
 .content > pre {
-  margin: 0 75px;
+  margin: 0 12px;
 }
 #sidepane {
     float: left;
@@ -390,7 +390,7 @@ body.expansion #banner a:hover {
   background-color: #E9F1F5;
   color: #435;
 }
-.highlight .n { /* identifier */
+.highlight .nf { /* identifier */
   color: #369;
 }
 .highlight .ss { /* symbol */

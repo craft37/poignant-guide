@@ -104,8 +104,7 @@ punctuation which encompass a single thought. These sentences can form books.
 They can form pages. They can form entire novels, when strung together. Novels
 that can be read by humans, but also by computers.
 
-<div class=sidebar><aside>
-{% capture sidebar %}
+<aside class="sidebar" markdown="1">
 ## Concerning Commercial Uses of the (Poignant) Guide
 
 This book is released under a Creative Commons license which allows unlimited
@@ -147,11 +146,11 @@ farm of inky foxes.
 
 > **Sensible Hipster Standing on Curb in Urban Wilderness**: He calls himself
 > the lucky stiff.
-
+>
 > (Pulls aside curtain to reveal gray corpse on a gurney.)
-
+>
 > **Hipster**: Some stiffs ain’t so lucky.
-
+>
 > (Erratic zoom in. Superimposed cartoon foxes for subliminal Willy Wonka mind
 > trip.)
 
@@ -218,9 +217,7 @@ voiceover in _The Royal Tenenbaums_. His career might be okay. You might not
 want to use him. He might not do it.
 
 Tell ya what. I’ll play the part. I’ve made a career out of low points.
-{% endcapture %}
-{{ sidebar | markdownify }}
-</aside></div>
+</aside>
 
 <a name="section2"></a>
 
@@ -689,8 +686,7 @@ broad view of them. I’ll be testing your metal in the next section.
 ![Out in the pickup truck.](../images/the.foxes-6.png "Out in the pickup
 truck.")
 
-<div class=sidebar><aside>
-{% capture sidebar %}
+<aside class="sidebar" markdown="1">
 ## Seven Moments of Zen from My Life
 
 1. 8 years old. Just laying in bed, thinking. And I realize. _There’s nothing
@@ -718,9 +714,7 @@ day.)
 Forgot about it for almost a couple months. One day, while cleaning, I found a
 chain and he was there on the end. Hey, little duck. Mad freaky, hoppin’ around
 with his hair out, squawking diagonal lines. In a tuxedo.
-{% endcapture %}
-{{ sidebar | markdownify }}
-</aside></div>
+</aside>
 
 <a name="section3"></a>
 
@@ -862,8 +856,8 @@ gives us all the <span class="caps">HTML</span> in a _string_. We then `print`
 that string. See how the basic dot-method pattern happens in a chain. The next
 chapter will explore all these sorts of patterns in Ruby. It’ll be good fun.
 
-So, what does this code do? It prints the <span class="caps">HTML</span> for the
-Ruby home page to the screen using an web-enabled bus driver.
+So, what does this code do? It prints the Ruby license page to the screen using
+a web-enabled bus driver.
 
 <a name="section5"></a>
 

@@ -7,8 +7,7 @@ layout: expansion
 sun...](../images/tigers.vest-1.gif "Tiger has vest.  Tiger likes girl robot.
 Earth crashing into sun...")
 
-<div class=sidebar><aside>
-{% capture sidebar %}
+<aside class="sidebar" markdown="1">
 ## About Ruby Versions
 
 **1.9.3** is the latest **stable** version of Ruby. Stable versions offer the
@@ -27,9 +26,7 @@ Oh, and if I could give you a taste of how smoothly Ruby moves along! I can’t
 count how often a fresh idea lands on the Ruby-Core mailing list, where the
 Emperors of Ruby converse, and **that same idea** gets worked into Ruby within
 a few days. It is a lovely machine says I.
-{% endcapture %}
-{{ sidebar | markdownify }}
-</aside></div>
+</aside>
 
 Let’s install the very latest Ruby on your computer so you can follow all the
 examples in the (Poignant) Guide and actually do things right now! (Yes,
@@ -40,11 +37,7 @@ things!)
   for you, as well as a tidy pack of useful software, such as a small text editor
   and some additional libraries.
 
-* If you are on Apple’s **Mac OS X**, then Ruby is already installed. However,
-  it is not the latest version available, so I encourage you to upgrade it by
-  first installing [Homebrew][2] package manager, then in the Terminal run:
-
-        brew install ruby
+* If you are on Apple’s **Mac OS X**, then Ruby is already installed.
 
   _The Ruby version that ships with OS X now (2.0.0) is good enough for trying examples from the book and getting started with Ruby. Newcomers shouldn't need to install Homebrew to take Ruby out for a spin._
 
@@ -55,7 +48,7 @@ things!)
 To test if Ruby is installed, open a command shell and run: `ruby -v`. If Ruby
 is installed properly, you’ll see a bit of version info.
 
-    ruby 1.9.3p194 (2012-04-20) [x86_64-darwin12.0.0]
+    ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin15]
 
 * To open a command shell in **Microsoft Windows**, go to the Start Menu and
   select `Run...`. Type in: `cmd`. Press OK. A command shell window will
@@ -396,6 +389,9 @@ Well then. Your hands are in it all now. Welcome to Ruby.
 
 
 [1]: http://rubyinstaller.org/
+<<<<<<< HEAD
 [2]: http://brew.sh/
+=======
+>>>>>>> upstream/gh-pages
 [3]: http://www.rubycentral.com/book/irb.html
 [4]: http://rdoc.sourceforge.net/doc/files/README.html
