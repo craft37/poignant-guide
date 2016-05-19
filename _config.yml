@@ -1,12 +1,13 @@
 permalink:   none
 lsi:         false
-highlighter: pygments
-markdown:    rdiscount
-rdiscount:   { extensions: [smart] }
+kramdown:
+  auto_ids:  false
+  syntax_highlighter_opts:
+    disable: true
 exclude:
   - Gemfile
   - Gemfile.lock
   - script
   - README.markdown
 
-title: "Why's (Poignant) Guide to Ruby [RU] - Почемучкин (трогательный) гайд по Ruby"
+title: "Why's (Poignant) Guide to Ruby [BY] - Почемучкин (трогательный) гайд по Ruby"
